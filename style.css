@@ -1,11 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 body {
-    background-color: green;
+    background-color: hsl(217, 54%, 11%);
+    font-family: outfit;
+   
 }
+
 .container {
     background-color:hsl(216, 50%, 16%);
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    width:20rem;
+    
+   
 }
+.elem img {
+    display: flex;
+    align-content: center;
+    border-radius: 10px;
+    margin: 1.5rem
+}
+.elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
-    color:white;
+    color: white;
+    
+    font-weight: 600;
+    font-size: 1.5rem;
 }
