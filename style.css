@@ -12,8 +12,11 @@ body {
     flex-direction: column;
     border-radius: 10px;
     width:20rem;
+    margin: auto;
+    position: relative;
+    top:3rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     
-   
 }
 .elem img {
     display: flex;
